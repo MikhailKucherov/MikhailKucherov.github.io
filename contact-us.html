@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<!-- фиолетовый блок (free consultation и gift certification)-->
+<!-- блок с ценами-->
+<!-- миксин слайдера-->
+<!--TODO:сделать слайдер-->
+<!--текст на странице FAQ-->
+<!--USED MIXINS-->
+<!--Шапка для desktop-->
+<!--миксин добавляет header-->
+<!--меню для header-->
+<!--Шапка для Device-->
+<!--миксин добавляет header для девайсов-->
+<!--меню для мобильного header-->
+<!--footer для desktop-->
+<!--добавляет рэйтинг в футер-->
+<!--рэйтинг отзывов-->
+<!--миксин меню для футера-->
+<html lang="ru">
+  <head>
+    <title>Interpid Bodyworks</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
+    <link rel="styleSheet" media="all" type="text/css" href="css/style.min.css">
+  </head>
+  <body>
+    <header class="header--contact"><a href="index.html">
+        <div class="logo"></div></a>
+      <div class="header--adress">
+        <p class="adress--text">10313 Washington St. Thornton, CO 80229</p>
+        <p class="adress--text">303-457-2040</p>
+      </div>
+    </header>
+    <div class="header__menu--device">
+      <div class="header__menu--containerElements">
+        <li class="header__menu--device-item"><a href="who-we-are.html">Who We Are</a></li>
+        <li class="header__menu--device-item"><a href="what-we-do.html">What We Do</a></li>
+        <li class="header__menu--device-item"><a href="price.html">Price</a></li>
+        <li class="header__menu--device-item"><a href="gift-certificates.html">Gift Certificates</a></li>
+        <li class="header__menu--device-item"><a href="faq.html">FAQ</a></li>
+        <li class="header__menu--device-item"><a href="contact.html">Contact</a></li>
+        <li class="header__menu--device-item"><a href="careers.html">Careers</a></li>
+      </div>
+    </div>
+    <div class="contact__page">
+      <div class="contactUs">
+        <div class="contactUs__leftSide">
+          <div class="contactUs__leftSide--wrapper">
+            <h1 class="contactUs__headline">Contact Us</h1>
+            <p class="contactUs__text">We seek to create long-term relationships built on results. Tell us about your business goals and we will contact you.</p>
+            <h2 class="contactUs__underHeadline">What You Get</h2>
+            <ul class="contactUs__array">
+              <li class="contactUs__array--el">An email or phone call from one of our consultants.</li>
+              <li class="contactUs__array--el">A cost estimate for your project.</li>
+              <li class="contactUs__array--el">An in-person meeting</li>
+            </ul>
+          </div>
+        </div>
+        <div class="contactUs__rightSide">
+          <form class="contact__form" name="contactForm" autocomplete="off">
+            <input class="cont--el" placeholder="Name" type="text" name="contactName">
+            <input class="cont--el" placeholder="Phone" type="text" name="contactPhone">
+            <input class="cont--el" placeholder="Email" type="email" name="contactEmail">
+            <textarea class="cont--el" placeholder="Massage" name="contactMassage"></textarea>
+            <button class="cont__btn">Send</button>
+            <!--todo:сделать валидацию формы-->
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__topBlock">
+        <div class="topBlock__content">
+          <div class="topBlock__content--navigation">
+            <div class="footer__menu">
+              <li class="footer__menu--item"><a href="who-we-are.html">Who We Are</a></li>
+              <li class="footer__menu--item"><a href="what-we-do.html">What We Do</a></li>
+              <li class="footer__menu--item"><a href="price.html">Price</a></li>
+              <li class="footer__menu--item"><a href="gift-certificates.html">Gift Certificates</a></li>
+              <li class="footer__menu--item"><a href="faq.html">FAQ</a></li>
+              <li class="footer__menu--item"><a href="contact.html">Contact</a></li>
+              <li class="footer__menu--item"><a href="careers.html">Careers</a></li>
+              <li class="footer__menu--item"><a href="contact-us.html">Contact Us</a></li>
+            </div>
+            <div class="topBlock__content--navigation-socialIcons">
+              <div class="circle__socialMedia"><a href="#"></a><img src="./images/footer/yelp_color.svg"></div>
+              <div class="circle__socialMedia"><a href="#"></a><img src="./images/footer/G+.svg"></div>
+              <div class="circle__socialMedia"><a href="#"></a><img src="./images/footer/f.svg"></div>
+            </div>
+          </div>
+          <div class="topBlock__content--contacts">
+            <div class="contacts__leftSide"><span class="topBlock__text">Intrepid Bodyworks, 10313 Washington St. Thornton, CO 80229</span><span class="topBlock__text">Monday — Sunday 9am — 8pm (Closed Tuesdays)</span></div>
+            <div class="contacts__rightSide"><span class="topBlock__text">303-457-2040</span><span class="topBlock__text">IntrepidBodyworks@gmail.com</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottomBlock">
+        <div class="bottomBlock__content">
+          <div class="bottomBlock__content--leftSide"><span class="bottomBlock__text">Intrepid Bodyworks © 2018</span>
+            <div class="rating"><span class="bottomBlock__text">Company rating:</span><img class="star" src="./images/footer/Star.svg"><img class="star" src="./images/footer/Star.svg"><img class="star" src="./images/footer/Star.svg"><img class="star" src="./images/footer/Star.svg"><img class="star" src="./images/footer/Star.svg">
+            </div>
+          </div>
+          <div class="bottomBlock__content--rightSide"><span class="bottomBlock__text">Web Design — Direct Line Development</span></div>
+        </div>
+      </div>
+    </footer>
+    <script src="./js/used_scripts.js"></script>
+  </body>
+</html>
